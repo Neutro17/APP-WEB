@@ -1,0 +1,133 @@
+.titulo{
+    font-size: 32px;
+    font-weight: 900;
+    padding: 20px;
+    text-align: center;
+}
+
+.form>.container>div:nth-child(1){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.form>.container>div:nth-child(2){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.campo{
+    height: 55px;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.campo input, .campo select{
+    width: 100%;
+    height: 25px;
+    padding: 2px 10px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 5px;
+    color: #222;
+    background-color: #EEE;
+    box-shadow: 3px 3px 5px #111;
+    outline: none;
+}
+
+.form button{
+    height: 25px;
+    padding: 2px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #bbb;
+    background-color: #333;
+    box-shadow: 3px 3px 5px #111;
+    outline: none;
+}
+
+#limpar{
+    margin: 30px 0 0;
+}
+
+/* Colunass */
+
+#exibicao .coluna-1{
+    height: 300px;
+    background: url('../img/coluna-1.svg') no-repeat center;
+    background-size: cover;
+}
+
+#exibicao .coluna-2{
+    height: 300px;
+    background: url('../img/coluna-2.svg') no-repeat center;
+    background-size: cover;
+}
+
+#exibicao .coluna-3{
+    height: 300px;
+    background: url('../img/coluna-3.svg') no-repeat center;
+    background-size: cover;
+}
+
+#exibicao .coluna-4{
+    height: 300px;
+    background: url('../img/coluna-4.svg') no-repeat center;
+    background-size: cover;
+}
+
+#exibicao .coluna-5{
+    height: 300px;
+    background: url('../img/coluna-5.svg') no-repeat center;
+    background-size: cover;
+}
+
+#exibicao .coluna-6{
+    height: 300px;
+    background: url('../img/coluna-6.svg') no-repeat center;
+    background-size: cover;
+}
+
+#exibicao .coluna-7{
+    height: 300px;
+    background: url('../img/coluna-7.svg') no-repeat center;
+    background-size: cover;
+}
+
+#exibicao .coluna-8{
+    height: 300px;
+    background: url('../img/coluna-8.svg') no-repeat center;
+    background-size: cover;
+}
+
+#exibicao .coluna-9{
+    height: 300px;
+    background: url('../img/coluna-9.svg') no-repeat center;
+    background-size: cover;
+}
+
+#exibicao .coluna-10{
+    height: 300px;
+    background: url('../img/coluna-10.svg') no-repeat center;
+    background-size: cover;
+}
+
+#exibicao .coluna-11{
+    height: 300px;
+    background: url('../img/coluna-11.svg') no-repeat center;
+    background-size: cover;
+}
+
+#exibicao .coluna-12{
+    height: 300px;
+    background: url('../img/coluna-12.svg') no-repeat center;
+    background-size: cover;
+}

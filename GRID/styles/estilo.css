@@ -1,0 +1,206 @@
+body{
+    padding-top: 80px;
+    color: #EEE;
+    font-family: sans-serif;
+    background-color: #222;
+}
+
+a, button, select, #exibicao div{
+    cursor: pointer;
+}
+
+header{
+    width: 100%;
+    height: 90px;
+    background-color: #333;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+header>div:nth-child(1){
+    height: 100%;
+    z-index: 1;
+    background-color: inherit;
+}
+
+header nav{
+    position: absolute;
+    top: -700px;
+    right: 470px;
+    opacity: 1;
+    transition: 0.8s;
+}
+
+header ul{
+    width: 180px;
+    padding: 0 0 15px;
+    border-radius: 0 0   5px 5px;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+}
+
+header li{
+    margin-top: 15px;
+}
+
+header a{
+    margin: 0 15px;
+    padding: 2px;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #BBB;
+    display: inline-block;
+}
+
+header a:hover{
+    color: #fff;
+    transition: .5s;
+}
+
+#menu{
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #333;
+    background-color: #BBB;
+    cursor: pointer;
+    transition: .5s;
+    outline: none;
+}
+
+
+/* Sessões de exibição das colunas */
+
+section{
+    max-width: 100%;
+    padding: 30px 0;
+    margin-top: 40px;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.sub_titulo{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.contEstilo{
+    padding: 30px 0;
+    margin-top: 30px;
+    border-radius: 4px;
+    background-color: #252525;
+    box-shadow: inset 5px 5px 10px rgba(2, 2, 2, 0.5);
+}
+
+.contEstilo > div{
+    box-shadow: 4px 4px 5px rgba(2, 2, 2, 0.5);
+}
+
+#colunas1 .coluna-1{
+    height: 80px;
+    background-color: #B00;
+}
+
+#colunas2 .coluna-2{
+    height: 190px;
+    background-color: #0B0;
+}
+
+#colunas3 .coluna-3{
+    height: 300px;
+    background-color: #00B;
+}
+
+#colunas4 .coluna-4{
+    height: 410px;
+    background-color: #F70;
+}
+
+#colunas5 .coluna-5{
+    height: 500px;
+    background-color: #0F7;
+}
+
+#colunas6 .coluna-6{
+    height: 500px;
+    background-color: #70F;
+}
+
+#colunas7 .coluna-7{
+    height: 500px;
+    background-color: #7F0;
+}
+
+#colunas8 .coluna-8{
+    height: 500px;
+    background-color: #07F;
+}
+
+#colunas9 .coluna-9{
+    height: 500px;
+    background-color: #FF0;
+}
+
+#colunas10 .coluna-10{
+    height: 500px;
+    background-color: #0FF;
+}
+
+#colunas11 .coluna-11{
+    height: 500px;
+    background-color: #F0F;
+}
+
+#colunas12 .coluna-12{
+    height: 500px;
+    background-color: #FFF;
+}
+
+/* Botão subir */
+
+#subir{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: #222;
+    background-color: #EEE;
+    position: fixed;
+    left: 90vw;
+    top: 88vh;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Sessão exibição */
+.sessaoExibicao{
+    min-height: 50vh;
+}
+
+/* Footer */
+
+footer{
+    width: 100%;
+    height: 80px;
+    color: #BBB;
+    background-color: #333;
+    position: relative;
+    bottom: 0;
+}
+
+footer a{
+    color: #BBB;
+}
