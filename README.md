@@ -2,7 +2,7 @@
 d-r-x-r--Trabalhos e Lições.
 
 
-JOGO: https://neutro17.github.io/JOGO/
+JOGO: https://neutro17.github.io/APP-WEB/JOGO/
 
 
-GRID:  https://neutro17.github.io/GRID/
+GRID:  https://neutro17.github.io/APP-WEB/GRID/
